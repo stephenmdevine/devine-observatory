@@ -1,6 +1,7 @@
-from src.devine-observatory.acquisition.tess import (
+from src.acquisition.tess import (
     download_lightcurve
 )
+
 
 def main():
 

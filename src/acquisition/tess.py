@@ -1,6 +1,6 @@
 from lightkurve import search_lightcurve
 
-from devine-observatory.models.lightcurve import LightCurve
+from models.lightcurve import LightCurve
 
 
 def download_lightcurve(target: str) -> LightCurve:
